@@ -28,7 +28,7 @@ const SignUp = () => {
     e.preventDefault()
     setData(registerInput)
     
-    axios.post('https://node4-server.onrender.com/user/category/register',data)
+    axios.post('https://node4-server-6wje.onrender.com/user/category/register',data)
     .then((res)=>console.log(res.data), navi("/"))
     .catch(err => console.log(err))
   }

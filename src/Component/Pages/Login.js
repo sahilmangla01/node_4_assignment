@@ -25,7 +25,7 @@ const Login = () => {
 
     setData(loginData)
 
-   axios.post("https://node4-server.onrender.com/user/category/login",data)
+   axios.post("https://node4-server-6wje.onrender.com/user/category/login",data)
    .then(res => {
     if(res.data.token){
       navi("/dashboard")

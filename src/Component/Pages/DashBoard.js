@@ -12,7 +12,7 @@ const DashBoard = () => {
    const click = (e)=>{
         e.preventDefault();
         console.log(token)
-       axios.get("https://node4-server.onrender.com/user/category/dashboard",{
+       axios.get("https://node4-server-6wje.onrender.com/user/category/dashboard",{
            headers:{
                "authorization" :`bearer ${token}`
                
